@@ -45,9 +45,9 @@ public class Aspose_Words_Java_Training_Tasks {
     // Programmatically create a document and insert a paragraph with text Hello World and save to disk.
     public static void Task3_HelloWorldAW() throws Exception {
 
-    // Initialize a Document.
+    // Create a blank document.
         String fileName = "CreateDocument_out.docx";
-        Document doc = new Document(dataDir + fileName);
+        Document doc = new Document();
 
      // Use a document builder to add content to the document.
         DocumentBuilder builder = new DocumentBuilder(doc);
